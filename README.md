@@ -1,4 +1,4 @@
-# python
+# Fun With Python
 This is a repository of various small and rudimentary projects I create as part of my jouurney of learning and devloping in Python.
 
 ## autograder.py
