@@ -1,4 +1,4 @@
-"""4-1-e)"""
+"""An autograder that checks the output of a python code against an exepected output file."""
 import os
 import subprocess
 import sys
@@ -70,7 +70,6 @@ def generate_output(path_to_python_program, path_to_input_file):
     if flag == 0:  # If no errors are raised
         # Creates a file with the output in the current working directory
         with open(file="actual_output.txt", mode="w") as f:
-            # Do I account for print implicit newline?
             f.write(result.stdout)  # Writes the stdout to the file
 
     else:  # If errors are raised
