@@ -1,5 +1,5 @@
 # Fun With Python
-This is a repository of various small and rudimentary projects I create as part of my jouurney of learning and devloping in Python.
+This is a repository of various small and rudimentary projects I create as part of my journey of learning and devloping in Python.
 
 ## Autograder
 It runs a given python file and passes any given inputs to it and checks the output against a given output file. It returns True if they match, else False.
